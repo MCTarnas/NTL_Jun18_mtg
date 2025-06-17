@@ -1,4 +1,4 @@
-# ❓ Do we need to / should we quantify how well our breakpoint detection techniques are working (Part 2)? If so, how?
+# ❓ Do we need to / should we quantify how well our breakpoint detection techniques are working? If so, how?
 We use the Breaks for Additive Season and Trend (BFAST) change detection approach to detect significant negative breakpoints in the mean NTL time series for each administrative unit while accounting for seasonality (NTL in both countries exhibit seasonality). Daniel got some questions about the technique when he was presenting at Oxford, which made us think that we should perhaps run a sensitivity analysis with another change detection approach. **We chose `BFAST` originally because it accounts for seasonality** and did the sensitivity analysis with `changepoint` (more on that below).
 
 ## 📄 Current methods and results (from paper)
